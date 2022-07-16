@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Q1_Two_Sum {
+public class Q0001_Two_Sum {
     public static void main(String[] args) {
 
         int[] nums = {2,56,11,7};

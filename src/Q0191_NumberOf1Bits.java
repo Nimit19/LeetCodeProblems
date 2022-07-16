@@ -1,4 +1,4 @@
-public class Q191_NumberOf1Bits {
+public class Q0191_NumberOf1Bits {
     public static void main(String[] args) {
         int n = 521;
         System.out.println(hammingWeight(n));

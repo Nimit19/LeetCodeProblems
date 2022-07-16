@@ -1,4 +1,4 @@
-public class Q414_ThirdMaximumNumber {
+public class Q0414_ThirdMaximumNumber {
     public static void main(String[] args) {
 //        int[] nums = {3,2,2,1};
 //        int[] nums = {1,1,2};
