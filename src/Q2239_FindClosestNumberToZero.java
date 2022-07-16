@@ -30,14 +30,7 @@ public class Q2239_FindClosestNumberToZero {
             } else if (a == ans * -1 && num > ans)
                 ans = num;
 
-
         }
         return ans;
     }
 }
-
-
-//0 - -4 = 4 
-//0 - -2 = 2
-//0 - 1 = 1
-//0 - 4 = 4
