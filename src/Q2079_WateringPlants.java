@@ -40,12 +40,9 @@ public class Q2079_WateringPlants {
                 step = step + (2 * count);
                 capacity = originalCapacity;
             }
-
             capacity = capacity - waterWant;
             step++;
             count++;
-
-
         }
 
         return step;
