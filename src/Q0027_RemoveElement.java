@@ -8,30 +8,42 @@ public class Q0027_RemoveElement {
     }
 
     static int removeElement(int[] nums, int val) {
-
-        int[] ans = new int[nums.length];
+//
+//        int[] ans = new int[nums.length];
+//
+//        int c = 0;
+//        int j = 0;
+//        for (int num : nums) {
+//            if (num != val) {
+//                c++;
+//                ans[j] = num;
+//                j++;
+//            }
+//        }
+//
+//        // without using builtin function
+////        for (int i = 0; i < ans.length; i++) {
+////            nums[i] = ans[i];
+////        }
+//
+//        // using builtin function // shorted way of above for loop
+//        System.arraycopy(ans, 0, nums, 0, ans.length);
+//
+//        System.out.println(Arrays.toString(nums));
+//
+//        return c;
 
         int c = 0;
         int j = 0;
         for (int num : nums) {
-
             if (num != val) {
                 c++;
-                ans[j] = num;
+                nums[j] = num;
                 j++;
             }
         }
 
-        // without using builtin function
-//        for (int i = 0; i < ans.length; i++) {
-//            nums[i] = ans[i];
-//        }
-
-        // using builtin function // shorted way of above for loop
-        System.arraycopy(ans, 0, nums, 0, ans.length);
-
-//        System.out.println(Arrays.toString(nums));
-
+        System.out.println(Arrays.toString(nums));
         return c;
     }
 }
