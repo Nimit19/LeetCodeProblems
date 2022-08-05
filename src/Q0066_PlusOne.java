@@ -4,6 +4,7 @@ public class Q0066_PlusOne {
     public static void main(String[] args) {
 
 //        int[] nums = {9};
+//        int[] nums = {1,5,6};
         int[] nums = {9,9};
         System.out.println(Arrays.toString(plusOne(nums)));
     }
